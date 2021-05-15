@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment #2 - HTML Recap</title>
+</head>
+<body>
+    <section style="background-color: gray;">
+        <nav style="text-align: right;">
+            <h4>Recommended Podcast Providers:</h4>
+            <a href="https://www.spotify.com" target="_blank">Spotify</a><a> | </a>
+            <a href="https://podcastsconnect.apple.com" target="_blank">Apple Podcasts</a><a> | </a>
+            <a href="https://www.stitcher.com" target="_blank">Sticher</a>
+        </nav>
+        <div style="background-color: blue; color:white">
+            <h1>Christopher's Podcast Recommendations</h1>
+            <table>
+                <tr>
+                    <td>
+                        <iframe src="https://open.spotify.com/embed/show/2VRS1IJCTn2Nlkg33ZVfkM" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </td>
+                    <td>
+                        <iframe src="https://open.spotify.com/embed/show/20Gf4IAauFrfj7RBkjcWxh" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </td>
+                    <td>
+                        <iframe src="https://open.spotify.com/embed/show/2hmkzUtix0qTqvtpPcMzEL" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </td>
+                    <td>
+                        <iframe src="https://open.spotify.com/embed/show/6GprOKBjrytXTbfEdbzIOl" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <iframe src="https://open.spotify.com/embed/show/41zWZdWCpVQrKj7ykQnXRc" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </td>
+                    <td>
+                        <iframe src="https://open.spotify.com/embed/show/7gozmLqbcbr6PScMjc0Zl4" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </td>
+                    <td>
+                        <iframe src="https://open.spotify.com/embed/show/5c26B28vZMN8PG0Nppmn5G" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </td>
+                    <td>
+                        <iframe src="https://open.spotify.com/embed/show/6z4NLXyHPga1UmSJsPK7G1" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section>
+        <section style="background-color: teal; padding-left: 1em; padding-right: 1em; text-align: right; width: 16%; height: 300px; float: left;">
+            <form>
+                <div style="text-align: left;">
+                    <legend><h2>Submit your own:</h2></legend>
+                </div>
+                <p>
+                    <label>
+                        Podcast: 
+                        <input name="podcast" />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Episodes: 
+                        <textarea id="instructions" name="instructions" rows="5"></textarea>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Your Name: 
+                        <input name="name" />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Email: 
+                        <input type="email" name="email" />
+                    </label>
+                </p>
+        </form>
+        </section>
+        <article style="background-color: yellow; float: right; width: 82%; height: 300px">
+            <h4><i>Kevin suggests:</i></h4>
+            <p>Revisionist History; episodes 1, 5, 7, 12</p>
+            <p>Submitted on <time datetime="2020-06-08">June 8</time></p>
+            <br />
+            <h4><i>Ben suggests:</i></h4>
+            <p>The Moth; episodes 22, 41, 53</p>
+            <p>Submitted on <time datetime="2020-12-19">December 19</time></p>
+            <br />
+        </article>
+    </section>
+    <footer>
+        <p>Copyright (c) 2021 by no one</p>
+    </footer>
+</body>
+</html>
